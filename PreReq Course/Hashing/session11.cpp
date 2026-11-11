@@ -48,8 +48,8 @@ void slv(){
             int fIndex=mp[val].first;
             int lIndex=mp[val].second;
 
-            longest=max(longest,j-fIndex+1);
-            shortest=min(shortest,j-lIndex+1);
+            longest=max(longest,j-fIndex);
+            shortest=min(shortest,j-lIndex);
         }
 
         // on the go update the hashmap
